@@ -1,0 +1,46 @@
+body {
+    background: rgb(15,5,185);
+    background: linear-gradient(0deg, rgb(77, 0, 51) 0%, rgba(99, 0, 66, 0.776) 32%, rgb(64, 102, 255) 71%, rgb(145, 255, 0) 100%);
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ .c-user {
+     font-size: 100px;
+ }
+ 
+ .form-control {
+    color: rgb(26, 255, 0);
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid rgb(104, 0, 0) 2px;
+ }
+ .form-control:focus {
+     color: rgb(26, 255, 0);
+     border: none;
+     border-bottom: solid rgb(104, 0, 0) 2px;
+     box-shadow: none;
+     background-color: rgba(255, 255, 255, 0);
+ }
+ .form-control::placeholder {
+     color: rgb(197, 193, 193);
+ }
+ 
+ .input-group-text {
+     color: rgb(152, 0, 147);
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     border-bottom: solid rgb(112, 0, 0) 2px;
+ }
+ 
+ form {
+     background-color: rgba(255, 0, 0, 0.1); 
+     border-radius: 15px; 
+     backdrop-filter: blur(10px); 
+     -webkit-backdrop-filter: blur(10px); 
+     border: 1px solid rgba(255, 255, 255, 0.3);
+ }
+
+ 

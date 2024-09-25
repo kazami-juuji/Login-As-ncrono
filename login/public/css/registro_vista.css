@@ -1,0 +1,34 @@
+body {
+    background: rgb(20, 185, 5);
+    background: linear-gradient(0deg, rgb(5, 185, 65) 0%, rgba(255, 255, 255, 0.776) 57%, rgb(185, 0, 0) 100%);
+}
+
+button {
+    color: rgb(255, 60, 0);
+    background-image: linear-gradient(to right, #ad0303, #0c9b16 );
+}
+
+.c-user {
+    font-size: 100px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; /* Bordes redondeados */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    border: 1px solid rgba(228, 19, 19, 0.3);
+}
+.form-control {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: none;
+}
+
+.form-control::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.c-input {
+    background-color: #ffd90093;
+}
